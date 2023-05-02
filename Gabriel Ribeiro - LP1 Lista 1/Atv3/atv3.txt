@@ -1,0 +1,15 @@
+<--- Questão 3 ---> Elabore um resumo elencando as principais
+características dos containers (lista, fila, pilha, deque, vector, set e
+map). Pesquise e cite um possível uso para cada tipo de estrutura.
+
+Respostas:
+
+Pilha (Stack): Estrutura de dados do tipo Last In First Out, onde o último elemento adicionado é o primeiro a ser retirado, similar a uma pilha de livros, onde o último livro posto é o primeiro a ser retirado. Para usa-lo é preciso adicionar a biblioteca <stack>.
+
+Um exemplo do uso de pilhas são os mecanismos de desfazer/refazer presentes nos editores de texto.
+
+Fila (Queue): Estrutura de dados do tipo First In First Out, ou seja o primeiro elemento adicionado na fila também será o primeiro a ser removido, para usa-la é preciso adicionar a biblioteca <queue>. 
+
+Note que um exemplo do uso de filas são as filas para comprar ingressos em sites como a Eventim, onde já que o sistema não suporta todos os usuarios comprando simultaneamente, esses são postos em um fila e a medida que a fila anda, ou seja, o primeiro elemento sai, a posição do usuario avança e quando ele for o primeiro na fila será sua vez de comprar o ingresso.
+
+
