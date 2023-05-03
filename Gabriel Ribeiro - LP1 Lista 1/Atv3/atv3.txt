@@ -12,4 +12,21 @@ Fila (Queue): Estrutura de dados do tipo First In First Out, ou seja o primeiro 
 
 Note que um exemplo do uso de filas são as filas para comprar ingressos em sites como a Eventim, onde já que o sistema não suporta todos os usuarios comprando simultaneamente, esses são postos em um fila e a medida que a fila anda, ou seja, o primeiro elemento sai, a posição do usuario avança e quando ele for o primeiro na fila será sua vez de comprar o ingresso.
 
+Lista (list): São estruturas de dados duplamente encadeadas, ou seja, permite que sejam adicionados ou removidos elementos tanto no inicio como no final da lista, também permite acesso aleátorio aos elementos. Para usa-la é preciso incluir a biblioteca <list>. 
+
+Entretanto, vale ressaltar que podemos utilizar de iteradores em listas, o que facilita o acesso a posições especificas. 
+
+Listas pode servir para o armazenamento de informações, desde que haja um tamanho especifico, como por exemplo armazenar 3 notas de um aluno (uma para cada unidade)
+
+Vector: Impleta um array dinâmico que cresce e diminui de tamanho a medida que são adicionados ou removidos elementos, portanto é extremamente útil em situações onde a quantidade de dados é desconhecida, e assim como em um array seus dados podem ser acessados por indices, o que facilita imensamente a manipulação e leitura dos dados. Para usar de vector é necessário incluir a biblioteca <vector>
+
+Um exemplo do uso de vector seria um programa que recebe X entradas de um usuario, onde essas entradas tem de ser guardadas para posteriormente serem manipuladas.
+
+Set(Conjunto): Estrutura de dados que armazenas um conjunto de valores únicos, esses podem ser ordenados de forma crescente ou decresente. Um das vantagens do set é que ele é implementado como árvore binária de busca balanceada, o que proporciona maior eficiência na execução de ações como remoção, adição e consulta, o que consequentemente diminui o tempo de execução 
+
+Um exemplo de Set são listas de matricula, onde somente 1 pessoa pode ter aquela matricula e essas devem estar ordenadas de forma crescente ou decresente.
+
+Map(Mapa): Estrutura que armazena coleção de elementos chave-valor, onde as chaves são únicas e ordenadas, seus valores podem ser modificados a partir do acesso por meio das proprias chaves. Também consiste numa árvore binária de busca balanceada, o que proporciona grande agilidade na execução, o que o torna muito eficiente para uso com grandes quantidades de dados
+
+Um exemplo do uso de Map é uma urna eletronicas, onde cada candidato é uma chave e os votos recebidos são o valor, note que pela estrutura do map aqueles votos sempre estarão relacionados com aquele candidato (chave) portanto aumentando a segurança.  
 
